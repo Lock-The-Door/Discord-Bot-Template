@@ -1,6 +1,6 @@
 using Discord.Commands;
 using Discord.WebSocket;
-using System.Collections.Generic;
+using System.Threading.Tasks;
 using System.Reflection;
 
 namespace Discord_Bot_Template
