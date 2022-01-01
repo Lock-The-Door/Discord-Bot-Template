@@ -18,6 +18,7 @@ namespace Discord_Bot_Template
         {
             _client = new DiscordSocketClient(new DiscordSocketConfig
             {
+                GatewayIntents = GatewayIntents.Guilds | GatewayIntents.GuildMessages | GatewayIntents.DirectMessages,
                 LogLevel = LogSeverity.Debug
             });
             _commands = new CommandService(new CommandServiceConfig
